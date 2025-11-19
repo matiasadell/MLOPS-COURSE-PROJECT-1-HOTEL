@@ -1,0 +1,50 @@
+2025-11-11 21:34:05,085 - INFO - YAML file read successfully
+2025-11-11 21:34:10,986 - INFO - YAML file read successfully
+2025-11-11 22:30:01,521 - INFO - YAML file read successfully
+2025-11-11 22:30:01,523 - INFO - Data Preprocessing from RAW directory
+2025-11-11 22:30:01,523 - INFO - Loading data
+2025-11-11 22:30:01,934 - INFO - Loading data
+2025-11-11 22:30:01,968 - INFO - Starting data preprocessing
+2025-11-11 22:30:01,968 - INFO - Dropping the columns
+2025-11-11 22:30:02,163 - ERROR - Error during data preprocessing
+2025-11-11 22:30:02,163 - ERROR - Error in data preprocessing step 'KeyError' object has no attribute 'exc_info'
+2025-11-11 22:30:42,271 - INFO - YAML file read successfully
+2025-11-11 22:30:42,272 - INFO - Data Preprocessing from RAW directory
+2025-11-11 22:30:42,272 - INFO - Loading data
+2025-11-11 22:30:42,329 - INFO - Loading data
+2025-11-11 22:30:42,344 - INFO - Starting data preprocessing
+2025-11-11 22:30:42,345 - INFO - Dropping the columns
+2025-11-11 22:30:42,362 - INFO - Applying Label Encoding
+2025-11-11 22:30:42,447 - INFO - Label Mappings are: 
+2025-11-11 22:30:42,447 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-11-11 22:30:42,447 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-11-11 22:30:42,447 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-11-11 22:30:42,447 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-11-11 22:30:42,447 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-11-11 22:30:42,447 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-11-11 22:30:42,447 - INFO - Doing Skewness Handling
+2025-11-11 22:30:42,518 - INFO - Starting data preprocessing
+2025-11-11 22:30:42,518 - INFO - Dropping the columns
+2025-11-11 22:30:42,523 - INFO - Applying Label Encoding
+2025-11-11 22:30:42,529 - INFO - Label Mappings are: 
+2025-11-11 22:30:42,529 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-11-11 22:30:42,529 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-11-11 22:30:42,529 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-11-11 22:30:42,529 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-11-11 22:30:42,529 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-11-11 22:30:42,529 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-11-11 22:30:42,529 - INFO - Doing Skewness Handling
+2025-11-11 22:30:42,531 - INFO - Handling Imbalanced Data
+2025-11-11 22:30:45,128 - INFO - Data balanced successfully
+2025-11-11 22:30:45,129 - INFO - Handling Imbalanced Data
+2025-11-11 22:30:45,152 - INFO - Data balanced successfully
+2025-11-11 22:30:45,153 - INFO - Starting our feature selection process
+2025-11-11 22:30:48,880 - INFO - Top 10 features selected: ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'room_type_reserved' 'type_of_meal_plan']
+2025-11-11 22:30:48,883 - INFO - Feature selection completed successfully
+2025-11-11 22:30:48,892 - INFO - Saving processed data in processed folder
+2025-11-11 22:30:49,017 - INFO - Processed data saved at artifacts/processed\processed_train.csv
+2025-11-11 22:30:49,017 - INFO - Saving processed data in processed folder
+2025-11-11 22:30:49,091 - INFO - Processed data saved at artifacts/processed\processed_test.csv
+2025-11-11 22:30:49,092 - INFO - Data Preprocessing completed successfully

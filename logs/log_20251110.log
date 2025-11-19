@@ -1,0 +1,5 @@
+2025-11-10 23:44:48,799 - INFO - YAML file read successfully
+2025-11-10 23:44:48,799 - INFO - Data Ingestion started with my_bucket9789 and file Hotel_Reservations.csv
+2025-11-10 23:44:48,799 - INFO - Data Ingestion process started
+2025-11-10 23:44:51,821 - ERROR - Error occurred while downloading CSV from GCP
+2025-11-10 23:44:51,821 - INFO - Data Ingestion process ended

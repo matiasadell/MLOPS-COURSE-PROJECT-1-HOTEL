@@ -1,0 +1,42 @@
+2025-11-12 00:04:46,744 - INFO - Model Training pipeline started
+2025-11-12 00:04:46,744 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-11-12 00:04:46,744 - INFO - Loading data
+2025-11-12 00:04:46,773 - INFO - Loading data from artifacts/processed\processed_test.csv
+2025-11-12 00:04:46,773 - INFO - Loading data
+2025-11-12 00:04:46,795 - INFO - Data splitting sucessfully for model Training
+2025-11-12 00:04:46,795 - INFO - Initializing our model
+2025-11-12 00:04:46,795 - INFO - Starting our hyperparameter tuning
+2025-11-12 00:04:46,795 - INFO - Starting our Hyperparameter tuning
+2025-11-12 00:05:05,235 - INFO - Hyperparameter tuning completed
+2025-11-12 00:05:05,235 - INFO - Best parameters found: {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-11-12 00:05:05,235 - INFO - Evaluating our model
+2025-11-12 00:05:05,544 - INFO - Accuracy: 0.9809598844461953
+2025-11-12 00:05:05,544 - INFO - Precision: 0.9851645804357905
+2025-11-12 00:05:05,544 - INFO - Recall: 0.9766266167684328
+2025-11-12 00:05:05,544 - INFO - F1 Score: 0.9808770194526871
+2025-11-12 00:05:05,545 - INFO - Saving the model
+2025-11-12 00:05:05,628 - INFO - Model saved at artifacts/models/lgbm_model.pkl
+2025-11-12 00:05:05,628 - INFO - Model Training completed successfully
+2025-11-12 00:25:03,630 - INFO - Model Training pipeline started
+2025-11-12 00:25:03,631 - INFO - Starting our MLFLOW esperimentation
+2025-11-12 00:25:03,631 - INFO - Logging the training and testing dataset to MLFLOW
+2025-11-12 00:25:03,642 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-11-12 00:25:03,643 - INFO - Loading data
+2025-11-12 00:25:03,665 - INFO - Loading data from artifacts/processed\processed_test.csv
+2025-11-12 00:25:03,665 - INFO - Loading data
+2025-11-12 00:25:03,689 - INFO - Data splitting sucessfully for model Training
+2025-11-12 00:25:03,689 - INFO - Initializing our model
+2025-11-12 00:25:03,689 - INFO - Starting our hyperparameter tuning
+2025-11-12 00:25:03,689 - INFO - Starting our Hyperparameter tuning
+2025-11-12 00:25:26,595 - INFO - Hyperparameter tuning completed
+2025-11-12 00:25:26,595 - INFO - Best parameters found: {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-11-12 00:25:26,595 - INFO - Evaluating our model
+2025-11-12 00:25:26,862 - INFO - Accuracy: 0.9809598844461953
+2025-11-12 00:25:26,862 - INFO - Precision: 0.9851645804357905
+2025-11-12 00:25:26,862 - INFO - Recall: 0.9766266167684328
+2025-11-12 00:25:26,862 - INFO - F1 Score: 0.9808770194526871
+2025-11-12 00:25:26,863 - INFO - Saving the model
+2025-11-12 00:25:26,932 - INFO - Model saved at artifacts/models/lgbm_model.pkl
+2025-11-12 00:25:26,932 - INFO - Logging the model into MLFLOW
+2025-11-12 00:25:26,938 - INFO - Logging model parameters and metrics to MLFLOW
+2025-11-12 00:25:26,977 - INFO - Model Training completed successfully
