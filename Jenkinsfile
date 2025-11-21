@@ -31,18 +31,16 @@ pipeline{
             }
         }
 
-        stage('Building and pushin Docker image to GCR'){
+        stage('Building and pushing Docker image to GCR'){
             steps{
-                withCredentials([file(credentialsId: 'gcp-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
-                    script{
-                        echo 'Building and pushing Docker image to GCR'
-                        sh '''
-                            gcloud config set project ${GCP_PROJECT}
-                            gcloud auth configure-docker --quiet
-                            docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest .
-                            docker push gcr.io/${GCP_PROJECT}/ml-project:latest
-                        '''
-                    }
+                script{
+                    echo 'Building and pushing Docker image to GCR'
+                    sh '''
+                        gcloud config set project ${GCP_PROJECT}
+                        gcloud auth configure-docker --quiet
+                        docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest .
+                        docker push gcr.io/${GCP_PROJECT}/ml-project:latest
+                    '''
                 }
             }
         }
