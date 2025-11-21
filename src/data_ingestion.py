@@ -10,6 +10,7 @@ Dentro de cada paso (métodos) se captura Exception para atrapar cualquier error
 
 import os
 import pandas as pd
+from google.auth import default
 from google.cloud import storage
 from sklearn.model_selection import train_test_split
 from src.logger import get_logger
@@ -35,7 +36,6 @@ class DataIngestion:
             client = storage.Client()
             bucket = client.bucket(self.bucket_name)
             blob = bucket.blob(self.file_name)
-
             blob.download_to_filename(RAW_FILE_PATH)
 
             logger.info(f"CSV File is successfully downloaded to {RAW_FILE_PATH}")

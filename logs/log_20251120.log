@@ -1,0 +1,38 @@
+2025-11-20 21:40:38,862 - INFO - YAML file read successfully
+2025-11-20 21:40:38,881 - INFO - Data Ingestion started with my_bucket9789 and file Hotel_Reservations.csv
+2025-11-20 21:40:38,881 - INFO - Data Ingestion process started
+2025-11-20 21:40:42,168 - ERROR - Error occurred while downloading CSV from GCP
+2025-11-20 21:40:42,168 - INFO - Data Ingestion process ended
+2025-11-20 21:47:30,926 - INFO - YAML file read successfully
+2025-11-20 21:47:30,927 - INFO - Data Ingestion started with my_bucket9789 and file Hotel_Reservations.csv
+2025-11-20 21:47:30,927 - INFO - Data Ingestion process started
+2025-11-20 21:47:37,210 - ERROR - Error occurred while downloading CSV from GCP
+2025-11-20 21:47:37,210 - INFO - Data Ingestion process ended
+2025-11-20 21:53:17,597 - INFO - YAML file read successfully
+2025-11-20 21:53:17,598 - INFO - Data Ingestion started with my_bucket9789 and file Hotel_Reservations.csv
+2025-11-20 21:53:17,598 - INFO - Data Ingestion process started
+2025-11-20 21:53:23,419 - ERROR - Error occurred while downloading CSV from GCP
+2025-11-20 21:53:23,419 - INFO - Data Ingestion process ended
+2025-11-20 21:54:03,126 - INFO - YAML file read successfully
+2025-11-20 21:54:03,126 - INFO - Data Ingestion started with my_bucket9789 and file Hotel_Reservations.csv
+2025-11-20 21:54:03,126 - INFO - Data Ingestion process started
+2025-11-20 21:54:09,045 - ERROR - Error occurred while downloading CSV from GCP
+2025-11-20 21:54:09,045 - INFO - Data Ingestion process ended
+2025-11-20 21:55:11,830 - INFO - YAML file read successfully
+2025-11-20 21:55:11,831 - INFO - Data Ingestion started with mlops_1_hotel and file Hotel_Reservations.csv
+2025-11-20 21:55:11,831 - INFO - Data Ingestion process started
+2025-11-20 21:55:19,198 - INFO - CSV File is successfully downloaded to artifacts/raw\raw.csv
+2025-11-20 21:55:19,198 - INFO - Starting data splitting process
+2025-11-20 21:55:19,784 - INFO - Train data saved to artifacts/raw\train.csv
+2025-11-20 21:55:19,784 - INFO - Test data saved to artifacts/raw\test.csv
+2025-11-20 21:55:19,787 - INFO - Data Ingestion process completed successfully
+2025-11-20 21:55:19,787 - INFO - Data Ingestion process ended
+2025-11-20 21:56:39,090 - INFO - YAML file read successfully
+2025-11-20 21:56:39,091 - INFO - Data Ingestion started with mlops_1_hotel and file Hotel_Reservations.csv
+2025-11-20 21:56:39,091 - INFO - Data Ingestion process started
+2025-11-20 21:56:46,245 - INFO - CSV File is successfully downloaded to artifacts/raw\raw.csv
+2025-11-20 21:56:46,246 - INFO - Starting data splitting process
+2025-11-20 21:56:46,504 - INFO - Train data saved to artifacts/raw\train.csv
+2025-11-20 21:56:46,504 - INFO - Test data saved to artifacts/raw\test.csv
+2025-11-20 21:56:46,507 - INFO - Data Ingestion process completed successfully
+2025-11-20 21:56:46,507 - INFO - Data Ingestion process ended
