@@ -37,17 +37,9 @@ pipeline{
                     script{
                         echo 'Building and pushing Docker image to GCR'
                         sh '''
-                            # Usar credenciales de aplicación por defecto
-                            export GOOGLE_APPLICATION_CREDENTIALS=""
-
-                            gcloud auth activate-service-account --key-file=/var/jenkins_home/.config/gcloud/application_default_credentials.json
-
                             gcloud config set project ${GCP_PROJECT}
-
                             gcloud auth configure-docker --quiet
-
                             docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest .
-
                             docker push gcr.io/${GCP_PROJECT}/ml-project:latest
                         '''
                     }
