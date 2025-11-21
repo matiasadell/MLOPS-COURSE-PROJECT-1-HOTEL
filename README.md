@@ -17,8 +17,7 @@ Este proyecto implementa un sistema completo de MLOps que automatiza desde la in
 
 ## Arquitectura
 
-<img width="1108" height="697" alt="image" src="https://github.com/user-attachments/assets/946cb34c-dc8f-4462-a5bd-bda92c8fff3a" />
-
+<img width="1104" height="691" alt="image" src="https://github.com/user-attachments/assets/187af0c2-8870-402e-9146-0962eebd6c95" />
 
 ## Pipeline de Machine Learning
 
