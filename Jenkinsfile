@@ -29,7 +29,7 @@ pipeline{
                     '''
                 }
             }
-
+        }
 
         stage('Building and pushin Docker image to GCR'){
             steps{
