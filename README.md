@@ -15,6 +15,16 @@ Este proyecto implementa un sistema completo de MLOps que automatiza desde la in
 
 **Problema de negocio:** Las cancelaciones de reservas generan pérdidas económicas significativas. Un sistema predictivo permite tomar acciones preventivas (overbooking controlado, políticas de cancelación dinámicas, ofertas personalizadas).
 
+## Dataset
+
+El proyecto utiliza el [Hotel Reservations Classification Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset) de Kaggle, que contiene 36,275 reservas hoteleras con 19 características incluyendo:
+
+- **Características temporales:** lead_time, arrival_date, arrival_month
+- **Información de la reserva:** no_of_adults, no_of_children, required_car_parking_space
+- **Datos del cliente:** type_of_meal_plan, room_type_reserved, market_segment_type
+- **Historial de reservas:** no_of_previous_cancellations, no_of_previous_bookings_not_canceled
+- **Target:** booking_status (Cancelado/No Cancelado)
+
 ## Arquitectura
 
 <img width="1104" height="691" alt="image" src="https://github.com/user-attachments/assets/187af0c2-8870-402e-9146-0962eebd6c95" />
