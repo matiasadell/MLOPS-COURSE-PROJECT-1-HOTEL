@@ -5,7 +5,7 @@ from sklearn.model_selection import RandomizedSearchCV
 import lightgbm as lgb
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from src.logger import get_logger
-from custom_exception import CustomException
+from src.custom_exception import CustomException
 from config.paths_config import *
 from config.model_params import *
 from utils.common_functions import read_yaml, load_data
